@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital StoryTeller</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background:linear-gradient(to right,rgb(111, 43, 111),rgb(163, 115, 123));
+        }
         h2{
             text-align: center;
         }
         .container{
             display: flex;
             padding: 10px;
-            border: 1px solid white;
             flex-wrap: wrap;
             justify-content:space-around;
         }
@@ -21,13 +25,42 @@
             margin: 10px;
             font-size: 25px;
             width: 400px;
-            height: 150px;
-            background:linear-gradient(to right,violet,pink);
-            
+            height: 120px;
+            background: white;  
+        }
+        
+        img{
+            border-radius: 50%;
+            float: right;
+            top:0px;
+    
+        }
+        h5{
+            text-align: right;
+            float: right;
+            position: relative;
+            top: 7rem;
+            left: 7rem;
+            background: none;
         }
         p{
-            text-align: initial;
+            position: relative;
+            background: none;
+            top:4px;
+            font-size:17px;
         }
+        a{
+            float: left;
+            position: relative;
+            top:2rem;
+            background: none;
+            text-decoration: none;
+            color: rgb(36, 5, 56);
+        }
+        a:hover{
+            color: rgb(182, 39, 106);
+        }
+        
     </style>
 </head>
 <body>
@@ -37,9 +70,14 @@
         <div class="box">Nanthini</div>
         <div class="box">Miralini</div>
         <div class="box">Nivedhika</div>
-        <div class="box"><img src="ii.jpeg" height="100px" width="100px"><p>Mageswari</p></div>
+        <div class="box"><img src="mages.jpg" height="100px" width="100px">
+            <h5>Mageswari</h5>
+            <p>Enthusiastic web developer exploring new possibilities</p>
+            <a href="https://medium.com/@mageswari31k" target="_blank">My Profile</a>
+            
+        </div>
         <div class="box">Jenet Stacy</div>
-        <div class="box">Kumaran</div>
+        <div class="box"><img src="kumaran.jpg" height="100px" width="100px"></div>
         <div class="box">Shreya</div>
         <div class="box">Sowrathi</div>
         <div class="box">Minusri</div>
