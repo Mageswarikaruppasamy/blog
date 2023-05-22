@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Mate+SC&family=PT+Serif:ital@1&display=swap');
 body{
     margin: 0;
     padding: 0;
     background:linear-gradient(to right,rgb(176, 57, 129),rgb(221, 161, 171));
+    font-family: 'Mate SC', serif;
 }
 h6{
     position: relative;
@@ -10,7 +12,7 @@ h6{
     text-align: center;
     color: beige;
     font-size: 47px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Laila', sans-serif;
 }
 .container{
     display: flex;
@@ -84,6 +86,8 @@ img{
     background: #04070c;
 }
 p{
+    font-family: 'Alice', serif;
+
     position: relative;
     background: none;
     text-align: left;
