@@ -4,8 +4,9 @@ body{
     background:linear-gradient(to right,rgb(176, 57, 129),rgb(221, 161, 171));
 }
 h3{
-    margin-top: 50px;
-    padding: 70px;
+    position: relative;
+    top: 2rem;
+    padding: 10px;
     text-align: center;
     color: beige;
     font-size: 47px;
@@ -19,7 +20,7 @@ h3{
 }
 .box{
     padding: 30px;
-    margin: 10px;
+    margin: 15px;
     font-size: 25px;
     width: 370px;
     height: 150px;
@@ -88,7 +89,7 @@ img{
 p{
     position: relative;
     background: none;
-    top:20px;
+    top:15px;
     text-align: left;
     font-size:12px;
 }
