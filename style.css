@@ -3,7 +3,7 @@ body{
     padding: 0;
     background:linear-gradient(to right,rgb(176, 57, 129),rgb(221, 161, 171));
 }
-h2{
+h3{
     margin-top: 50px;
     padding: 70px;
     text-align: center;
@@ -29,7 +29,7 @@ h2{
 .box:nth-child(2):hover{
     background: linear-gradient(to left,rgb(93, 199, 225),rgb(245, 172, 184));
 }
-.box:nth-child(4):hover{
+.box:nth-child(3):hover{
     background: rgb(63,251,223);
 background: linear-gradient(90deg, rgb(208, 208, 130) 0%, rgb(221, 91, 202) 100%);
 }
@@ -44,7 +44,7 @@ background: linear-gradient(90deg, rgb(208, 208, 130) 0%, rgb(221, 91, 202) 100%
 .box:nth-child(6):hover{
     background: linear-gradient(to left,rgb(93, 199, 225),rgb(245, 172, 184));
 }
-.box:nth-child(3):hover{
+.box:nth-child(4):hover{
     background: linear-gradient(to left,rgb(93, 199, 225),rgb(245, 172, 184));
 }
 .box:nth-child(9):hover{
