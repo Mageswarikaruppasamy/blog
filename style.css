@@ -60,6 +60,10 @@ background: linear-gradient(90deg, rgb(208, 208, 130) 0%, rgb(221, 91, 202) 100%
     background: rgb(63,251,223);
 background: linear-gradient(90deg, rgb(208, 208, 130) 0%, rgb(221, 91, 202) 100%);
 }
+.box:nth-child(14):hover{
+    background: rgb(63,251,223);
+background: linear-gradient(90deg, rgb(208, 208, 130) 0%, rgb(221, 91, 202) 100%);
+}
 .box:nth-child(3):hover{
     background-color: #8EC5FC;
 background-image: linear-gradient(62deg, #85b3e1 0%, #df83ed 100%);
